@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2C2C2C;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.website-logo {
+    margin-top: 3.6rem;
+    border-radius: 8px;
+    width: 18rem;
+    height: 12rem;
+    margin-bottom: 2.4rem;
+}
+
+.main-section {
+    justify-items: center;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 54rem;
+    min-height: 62rem;
+}
+
+.instruction-text {
+    margin-top: 4.6rem;
+    font-size: 2.4rem;
+    color: #1a1a1a;
+}
+
+.green-btn {
+    background-color: #337459;
+    padding: 1rem 4rem;
+    min-width: 20rem;
+    border: none;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+    font-size: 2.2rem;
+    margin-bottom: 1.8rem;
+}
+
+.green-btn:hover {
+    background-color: #295d47;
+}
+
+.or-text {
+    padding-top: 1.2rem;
+    padding-bottom: 2.8rem;
+    font-size: 2.4rem;
+    color: #1a1a1a;
+}
+
+.last-green-btn {
+    margin-bottom: 3.6rem;
+}
+
+
+
+

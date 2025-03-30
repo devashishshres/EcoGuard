@@ -2,12 +2,27 @@
 
 
 {% block head %}
-<h1>Hello</h1>
+
 {% endblock %}
 
 
 {% block body %}
-
+    <main>
+        <div class="main-section">
+            <img src="../static/images/website-logo.jpg" alt="website anem and logo" class="website-logo">
+            <p class="instruction-text">Hold your device over a barcode to scan it</p>
+            <img src="../static/images/barcode-image.png" width="240" height="240" alt="barcode image">
+            <form action="/scan-barcode" method="POST">
+                <label for="scan-barcode"></label>
+                <input type="submit" value="Scan" class="green-btn" id="scan-barcode">
+            </form>
+            <p class="or-text">OR</p>
+            <form action="/search-product" method="POST">
+                <label for="search-product"></label>
+                <input type="submit" value="Search" class="green-btn last-green-btn" id="search-product">
+            </form>
+        </div>
+    </main>
 {% endblock %}
 
 
