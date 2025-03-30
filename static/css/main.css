@@ -77,6 +77,23 @@ main {
     margin-bottom: 3.6rem;
 }
 
+#scanner-container {
+    position: relative;
+    width: 640px; 
+    height: 480px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+  }
+  #scanner-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain;
+  }
+  
+
 
 
 
