@@ -1,0 +1,195 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>EcoGuard Analysis Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #2e7d32;
+        }
+        .timestamp {
+            color: #757575;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .metric {
+            margin-bottom: 30px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .metric-title {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #1b5e20;
+        }
+        .progress-container {
+            width: 100%;
+            background-color: #e0e0e0;
+            border-radius: 4px;
+            height: 20px;
+            margin-bottom: 10px;
+        }
+        .progress-bar {
+            height: 20px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .good {
+            background-color: #4caf50;
+        }
+        .warning {
+            background-color: #ff9800;
+        }
+        .bad {
+            background-color: #f44336;
+        }
+        .neutral {
+            background-color: #2196f3;
+        }
+        .label {
+            font-size: 14px;
+            color: #616161;
+        }
+        .contradiction {
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #fff8e1;
+            border-left: 4px solid #ffc107;
+            border-radius: 2px;
+        }
+        .back-button {
+            background-color: #78909c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .back-button:hover {
+            background-color: #607d8b;
+        }
+    </style>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>Analysis Results: {{ results.company_name }}</h1>
+    <div class="timestamp">Analysis completed on: {{ results.timestamp }}</div>
+    
+    <!-- Misleading Claims Metric -->
+    <div class="metric">
+        <div class="metric-title">Misleading Claims Assessment</div>
+        <div class="progress-container">
+            <div class="progress-bar {% if results.mislead_scores[1] > 0.6 %}bad{% elif results.mislead_scores[1] > 0.4 %}warning{% else %}good{% endif %}" 
+                 style="width: {{ (results.mislead_scores[1] * 100)|round }}%">
+                {{ (results.mislead_scores[1] * 100)|round }}%
+            </div>
+        </div>
+        <div class="label">
+            {% if results.mislead_scores[1] > 0.6 %}
+                High probability of misleading sustainability claims
+            {% elif results.mislead_scores[1] > 0.4 %}
+                Moderate level of potentially misleading claims
+            {% else %}
+                Low probability of misleading sustainability claims
+            {% endif %}
+        </div>
+    </div>
+    
+    <!-- Vague Claims Metric -->
+    <div class="metric">
+        <div class="metric-title">Vague Claims Assessment</div>
+        <div class="progress-container">
+            <div class="progress-bar {% if results.vague_scores[1] > 0.6 %}bad{% elif results.vague_scores[1] > 0.4 %}warning{% else %}good{% endif %}" 
+                 style="width: {{ (results.vague_scores[1] * 100)|round }}%">
+                {{ (results.vague_scores[1] * 100)|round }}%
+            </div>
+        </div>
+        <div class="label">
+            {% if results.vague_scores[1] > 0.6 %}
+                High use of vague sustainability language
+            {% elif results.vague_scores[1] > 0.4 %}
+                Moderate use of vague sustainability language
+            {% else %}
+                Clear and specific sustainability claims
+            {% endif %}
+        </div>
+    </div>
+    
+    <!-- Public Sentiment Metric -->
+    <div class="metric">
+        <div class="metric-title">Public Sentiment Analysis</div>
+        <div class="progress-container">
+            <div class="progress-bar {% if results.public_sentiment > 0.6 %}bad{% elif results.public_sentiment > 0.4 %}warning{% else %}good{% endif %}" 
+                 style="width: {{ (results.public_sentiment * 100)|round }}%">
+                {{ (results.public_sentiment * 100)|round }}%
+            </div>
+        </div>
+        <div class="label">
+            {% if results.public_sentiment > 0.6 %}
+                Predominantly negative public sentiment
+            {% elif results.public_sentiment > 0.4 %}
+                Mixed public sentiment
+            {% else %}
+                Predominantly positive public sentiment
+            {% endif %}
+        </div>
+    </div>
+    
+    <!-- False Claims Metric -->
+    <div class="metric">
+        <div class="metric-title">False Advertising Claims</div>
+        <div class="label">
+            {{ results.number_of_false_claims }} false advertising claims filed in the past 3 years
+        </div>
+    </div>
+    
+    <!-- Contradictions -->
+    {% if results.contradictions and results.contradictions|length > 0 %}
+    <div class="metric">
+        <div class="metric-title">Contradictions Found</div>
+        <p>Our analysis identified the following contradictions between company claims and external reports:</p>
+        
+        {% for claim, report, score in results.contradictions %}
+        <div class="contradiction">
+            <strong>Company claim:</strong> "{{ claim }}"
+            <br>
+            <strong>Contradicted by:</strong> "{{ report }}"
+            <br>
+            <strong>Contradiction strength:</strong> {{ (score * 100)|round }}%
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="metric">
+        <div class="metric-title">No Significant Contradictions Found</div>
+        <p>Our analysis did not identify any significant contradictions between company claims and external reports.</p>
+    </div>
+    {% endif %}
+    
+    <a href="/" class="back-button">Analyze Another Company</a>
+</div>
+{% endblock %}

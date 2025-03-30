@@ -1,0 +1,260 @@
+2025-03-30 10:12:49,176 - __main__ - ERROR - Error downloading NLTK resources: module 'greenwash' has no attribute 'setup_nltk'
+2025-03-30 10:12:49,220 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-30 10:12:49,220 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-30 10:12:49,222 - werkzeug - INFO -  * Restarting with stat
+2025-03-30 10:12:51,204 - __main__ - ERROR - Error downloading NLTK resources: module 'greenwash' has no attribute 'setup_nltk'
+2025-03-30 10:12:51,225 - werkzeug - WARNING -  * Debugger is active!
+2025-03-30 10:12:51,238 - werkzeug - INFO -  * Debugger PIN: 128-149-696
+2025-03-30 10:12:55,521 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:12:55] "GET / HTTP/1.1" 200 -
+2025-03-30 10:12:55,612 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:12:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:12:55,763 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:12:55] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:12:55,860 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:12:55] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:12:55,861 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:12:55] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:12:57,716 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:12:57] "[33mPOST /search-product HTTP/1.1[0m" 404 -
+2025-03-30 10:12:57,760 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:12:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:12:57,969 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:12:57] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:12:58,064 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:12:58] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:12:58,065 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:12:58] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:13:12,602 - werkzeug - INFO -  * Detected change in 'C:\\Users\\shres\\Documents\\dev\\Projects\\EcoGuard\\app.py', reloading
+2025-03-30 10:13:12,836 - werkzeug - INFO -  * Restarting with stat
+2025-03-30 10:13:15,004 - __main__ - ERROR - Error downloading NLTK resources: module 'greenwash' has no attribute 'setup_nltk'
+2025-03-30 10:13:15,025 - werkzeug - WARNING -  * Debugger is active!
+2025-03-30 10:13:15,034 - werkzeug - INFO -  * Debugger PIN: 128-149-696
+2025-03-30 10:13:32,744 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:13:32] "GET / HTTP/1.1" 200 -
+2025-03-30 10:13:32,830 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:13:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:13:32,988 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:13:32] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:13:33,082 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:13:33] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:13:33,083 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:13:33] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:13:34,507 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:13:34] "[33mPOST /search-product HTTP/1.1[0m" 404 -
+2025-03-30 10:13:34,549 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:13:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:13:34,758 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:13:34] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:13:34,852 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:13:34] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:13:34,853 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:13:34] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:16:36,057 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:16:36] "GET / HTTP/1.1" 200 -
+2025-03-30 10:16:36,082 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:16:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:16:36,386 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:16:36] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:16:36,388 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:16:36] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:16:36,388 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:16:36] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:16:38,332 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:16:38] "[33mPOST /search-product HTTP/1.1[0m" 404 -
+2025-03-30 10:16:38,361 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:16:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:16:38,584 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:16:38] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:16:38,664 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:16:38] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:16:38,664 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:16:38] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:16:42,095 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:16:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:18:15,688 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:18:15] "GET / HTTP/1.1" 200 -
+2025-03-30 10:18:15,704 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:18:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:18:15,918 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:18:15] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:18:16,010 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:18:16] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:18:16,013 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:18:16] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:18:17,479 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:18:17] "POST /analyze HTTP/1.1" 200 -
+2025-03-30 10:18:17,520 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:18:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:19:11,885 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:19:11] "POST /analyze HTTP/1.1" 200 -
+2025-03-30 10:19:12,188 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:19:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:19:15,128 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:19:15] "POST /analyze HTTP/1.1" 200 -
+2025-03-30 10:19:15,171 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:19:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:23:42,556 - werkzeug - INFO -  * Detected change in 'C:\\Users\\shres\\Documents\\dev\\Projects\\EcoGuard\\app.py', reloading
+2025-03-30 10:23:42,803 - werkzeug - INFO -  * Restarting with stat
+2025-03-30 10:23:44,936 - __main__ - ERROR - Error downloading NLTK resources: module 'greenwash' has no attribute 'setup_nltk'
+2025-03-30 10:23:44,957 - werkzeug - WARNING -  * Debugger is active!
+2025-03-30 10:23:44,966 - werkzeug - INFO -  * Debugger PIN: 128-149-696
+2025-03-30 10:23:46,145 - werkzeug - INFO -  * Detected change in 'C:\\Users\\shres\\Documents\\dev\\Projects\\EcoGuard\\app.py', reloading
+2025-03-30 10:23:46,309 - werkzeug - INFO -  * Restarting with stat
+2025-03-30 10:23:48,338 - __main__ - ERROR - Error downloading NLTK resources: module 'greenwash' has no attribute 'setup_nltk'
+2025-03-30 10:23:48,358 - werkzeug - WARNING -  * Debugger is active!
+2025-03-30 10:23:48,367 - werkzeug - INFO -  * Debugger PIN: 128-149-696
+2025-03-30 10:23:51,655 - werkzeug - INFO -  * Detected change in 'C:\\Users\\shres\\Documents\\dev\\Projects\\EcoGuard\\app.py', reloading
+2025-03-30 10:23:51,961 - werkzeug - INFO -  * Restarting with stat
+2025-03-30 10:23:53,993 - __main__ - ERROR - Error downloading NLTK resources: module 'greenwash' has no attribute 'setup_nltk'
+2025-03-30 10:23:54,015 - werkzeug - WARNING -  * Debugger is active!
+2025-03-30 10:23:54,025 - werkzeug - INFO -  * Debugger PIN: 128-149-696
+2025-03-30 10:23:55,191 - werkzeug - INFO -  * Detected change in 'C:\\Users\\shres\\Documents\\dev\\Projects\\EcoGuard\\app.py', reloading
+2025-03-30 10:23:55,408 - werkzeug - INFO -  * Restarting with stat
+2025-03-30 10:23:57,423 - __main__ - ERROR - Error downloading NLTK resources: module 'greenwash' has no attribute 'setup_nltk'
+2025-03-30 10:23:57,439 - werkzeug - WARNING -  * Debugger is active!
+2025-03-30 10:23:57,448 - werkzeug - INFO -  * Debugger PIN: 128-149-696
+2025-03-30 10:24:01,121 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:24:01] "POST /analyze HTTP/1.1" 200 -
+2025-03-30 10:24:01,200 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:24:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:24:04,863 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:24:04] "POST /analyze HTTP/1.1" 200 -
+2025-03-30 10:24:04,912 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:24:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:25:46,620 - werkzeug - INFO -  * Detected change in 'C:\\Users\\shres\\Documents\\dev\\Projects\\EcoGuard\\app.py', reloading
+2025-03-30 10:25:46,852 - werkzeug - INFO -  * Restarting with stat
+2025-03-30 10:25:49,035 - __main__ - ERROR - Error downloading NLTK resources: module 'greenwash' has no attribute 'setup_nltk'
+2025-03-30 10:25:49,058 - werkzeug - WARNING -  * Debugger is active!
+2025-03-30 10:25:49,067 - werkzeug - INFO -  * Debugger PIN: 128-149-696
+2025-03-30 10:25:53,465 - werkzeug - INFO -  * Detected change in 'C:\\Users\\shres\\Documents\\dev\\Projects\\EcoGuard\\app.py', reloading
+2025-03-30 10:25:53,693 - werkzeug - INFO -  * Restarting with stat
+2025-03-30 10:25:55,787 - __main__ - ERROR - Error downloading NLTK resources: module 'greenwash' has no attribute 'setup_nltk'
+2025-03-30 10:26:19,147 - __main__ - ERROR - Error downloading NLTK resources: module 'greenwash' has no attribute 'setup_nltk'
+2025-03-30 10:26:19,193 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-30 10:26:19,193 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-30 10:26:19,195 - werkzeug - INFO -  * Restarting with stat
+2025-03-30 10:26:21,324 - __main__ - ERROR - Error downloading NLTK resources: module 'greenwash' has no attribute 'setup_nltk'
+2025-03-30 10:26:21,346 - werkzeug - WARNING -  * Debugger is active!
+2025-03-30 10:26:21,357 - werkzeug - INFO -  * Debugger PIN: 128-149-696
+2025-03-30 10:26:21,471 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:21] "GET / HTTP/1.1" 200 -
+2025-03-30 10:26:21,571 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:26:21,574 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:21] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:26:21,804 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:21] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:26:21,808 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:21] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:26:49,519 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:49] "GET / HTTP/1.1" 200 -
+2025-03-30 10:26:49,534 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:26:49,749 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:49] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:26:49,837 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:49] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:26:49,838 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:49] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:26:51,539 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:51] "GET /search HTTP/1.1" 200 -
+2025-03-30 10:26:51,583 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:26:55,615 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:55] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-03-30 10:26:55,963 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:55] "GET /loading/pepsico HTTP/1.1" 200 -
+2025-03-30 10:26:56,309 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:56] "[33mGET /loading/static/css/main.css HTTP/1.1[0m" 404 -
+2025-03-30 10:26:57,334 - __main__ - INFO - Starting analysis for pepsico
+2025-03-30 10:26:57,334 - __main__ - ERROR - Analysis error for pepsico: module 'greenwash' has no attribute 'quick_analysis'
+2025-03-30 10:26:57,335 - __main__ - INFO - Analysis completed for pepsico
+2025-03-30 10:26:57,336 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:57] "GET /process/pepsico HTTP/1.1" 200 -
+2025-03-30 10:26:57,698 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:57] "[35m[1mGET /results/pepsico HTTP/1.1[0m" 500 -
+2025-03-30 10:26:57,786 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:57] "GET /results/pepsico?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-30 10:26:57,969 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:57] "GET /results/pepsico?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-30 10:26:58,343 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:58] "GET /results/pepsico?__debugger__=yes&cmd=resource&f=console.png&s=qAwUmsK0JjMhaJQ9YXfp HTTP/1.1" 200 -
+2025-03-30 10:26:58,580 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:26:58] "GET /results/pepsico?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-30 10:30:30,548 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:30:30] "GET /results/pepsico HTTP/1.1" 200 -
+2025-03-30 10:30:30,566 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:30:30] "[33mGET /results/static/css/main.css HTTP/1.1[0m" 404 -
+2025-03-30 10:30:45,980 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:30:45] "GET / HTTP/1.1" 200 -
+2025-03-30 10:30:46,015 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:30:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:30:46,322 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:30:46] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:30:46,323 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:30:46] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:30:46,324 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:30:46] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:30:48,855 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:30:48] "GET /search HTTP/1.1" 200 -
+2025-03-30 10:30:48,895 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:30:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:30:56,312 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:30:56] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-03-30 10:30:56,615 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:30:56] "GET /loading/exxonmobil HTTP/1.1" 200 -
+2025-03-30 10:30:56,948 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:30:56] "[33mGET /loading/static/css/main.css HTTP/1.1[0m" 404 -
+2025-03-30 10:30:57,958 - __main__ - INFO - Starting analysis for exxonmobil
+2025-03-30 10:30:57,959 - __main__ - ERROR - Analysis error for exxonmobil: module 'greenwash' has no attribute 'quick_analysis'
+2025-03-30 10:30:57,960 - __main__ - INFO - Analysis completed for exxonmobil
+2025-03-30 10:30:57,960 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:30:57] "GET /process/exxonmobil HTTP/1.1" 200 -
+2025-03-30 10:30:58,292 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:30:58] "GET /results/exxonmobil HTTP/1.1" 200 -
+2025-03-30 10:30:58,321 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:30:58] "[33mGET /results/static/css/main.css HTTP/1.1[0m" 404 -
+2025-03-30 10:31:24,085 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:31:24] "GET / HTTP/1.1" 200 -
+2025-03-30 10:31:24,386 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:31:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:31:24,424 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:31:24] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:31:24,425 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:31:24] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:31:24,426 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:31:24] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:31:30,398 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:31:30] "GET / HTTP/1.1" 200 -
+2025-03-30 10:31:30,418 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:31:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:31:30,650 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:31:30] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:31:30,721 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:31:30] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:31:30,721 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:31:30] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:31:39,912 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:31:39] "GET /search HTTP/1.1" 200 -
+2025-03-30 10:31:39,958 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:31:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:31:52,663 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:31:52] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-03-30 10:31:52,962 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:31:52] "GET /results/pepsico HTTP/1.1" 200 -
+2025-03-30 10:31:53,314 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:31:53] "[33mGET /results/static/css/main.css HTTP/1.1[0m" 404 -
+2025-03-30 10:32:09,036 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:32:09] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-03-30 10:32:09,335 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:32:09] "GET /results/exxonmobil HTTP/1.1" 200 -
+2025-03-30 10:32:09,680 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:32:09] "[33mGET /results/static/css/main.css HTTP/1.1[0m" 404 -
+2025-03-30 10:33:18,718 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:33:18] "GET / HTTP/1.1" 200 -
+2025-03-30 10:33:18,735 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:33:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:33:19,040 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:33:19] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:33:19,041 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:33:19] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:33:19,043 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:33:19] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:33:21,040 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:33:21] "GET /search HTTP/1.1" 200 -
+2025-03-30 10:33:21,088 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:33:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:33:28,616 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:33:28] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-03-30 10:33:28,913 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:33:28] "GET /results/pepsico HTTP/1.1" 200 -
+2025-03-30 10:33:29,257 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:33:29] "[33mGET /results/static/css/main.css HTTP/1.1[0m" 404 -
+2025-03-30 10:33:41,120 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:33:41] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-03-30 10:33:41,395 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:33:41] "GET /results/exxonmobil HTTP/1.1" 200 -
+2025-03-30 10:33:41,737 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:33:41] "[33mGET /results/static/css/main.css HTTP/1.1[0m" 404 -
+2025-03-30 10:34:18,428 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:18] "GET / HTTP/1.1" 200 -
+2025-03-30 10:34:18,729 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:34:18,763 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:18] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:34:18,764 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:18] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:34:18,806 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:18] "GET /static/js/scanner.js HTTP/1.1" 200 -
+2025-03-30 10:34:22,946 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:22] "GET /search HTTP/1.1" 200 -
+2025-03-30 10:34:22,998 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:34:28,659 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:28] "GET / HTTP/1.1" 200 -
+2025-03-30 10:34:28,690 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:34:29,018 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:29] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:34:29,020 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:29] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:34:29,020 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:29] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:34:46,397 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:46] "GET / HTTP/1.1" 200 -
+2025-03-30 10:34:46,433 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:34:46,760 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:46] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:34:46,760 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:46] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:34:46,802 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:46] "GET /static/js/scanner.js HTTP/1.1" 200 -
+2025-03-30 10:34:47,516 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:47] "GET / HTTP/1.1" 200 -
+2025-03-30 10:34:47,818 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:34:47,842 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:47] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:34:47,843 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:47] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:34:47,843 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:34:47] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:36:42,911 - __main__ - ERROR - Error downloading NLTK resources: module 'greenwash' has no attribute 'setup_nltk'
+2025-03-30 10:36:42,952 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-30 10:36:42,953 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-30 10:36:42,956 - werkzeug - INFO -  * Restarting with stat
+2025-03-30 10:36:45,046 - __main__ - ERROR - Error downloading NLTK resources: module 'greenwash' has no attribute 'setup_nltk'
+2025-03-30 10:36:45,069 - werkzeug - WARNING -  * Debugger is active!
+2025-03-30 10:36:45,079 - werkzeug - INFO -  * Debugger PIN: 128-149-696
+2025-03-30 10:36:46,102 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:36:46] "GET / HTTP/1.1" 200 -
+2025-03-30 10:36:46,182 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:36:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:36:46,341 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:36:46] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:36:46,438 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:36:46] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:36:46,439 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:36:46] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:36:54,713 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:36:54] "GET /search HTTP/1.1" 200 -
+2025-03-30 10:36:54,762 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:36:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:37:00,805 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:37:00] "GET / HTTP/1.1" 200 -
+2025-03-30 10:37:01,060 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:37:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:37:01,123 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:37:01] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:37:01,132 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:37:01] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:37:01,135 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:37:01] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:41:11,815 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:41:11] "GET / HTTP/1.1" 200 -
+2025-03-30 10:41:11,836 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:41:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:41:12,042 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:41:12] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:41:12,138 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:41:12] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:41:12,150 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:41:12] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:41:18,271 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:41:18] "GET /search HTTP/1.1" 200 -
+2025-03-30 10:41:18,317 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:41:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:42:36,344 - __main__ - ERROR - Error downloading NLTK resources: module 'greenwash' has no attribute 'setup_nltk'
+2025-03-30 10:42:36,385 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-30 10:42:36,385 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-30 10:42:36,388 - werkzeug - INFO -  * Restarting with stat
+2025-03-30 10:42:38,307 - __main__ - ERROR - Error downloading NLTK resources: module 'greenwash' has no attribute 'setup_nltk'
+2025-03-30 10:42:38,320 - werkzeug - WARNING -  * Debugger is active!
+2025-03-30 10:42:38,326 - werkzeug - INFO -  * Debugger PIN: 128-149-696
+2025-03-30 10:42:48,896 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:42:48] "GET / HTTP/1.1" 200 -
+2025-03-30 10:42:49,009 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:42:49] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-30 10:42:49,140 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:42:49] "GET /static/images/website-logo.jpg HTTP/1.1" 200 -
+2025-03-30 10:42:49,258 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:42:49] "GET /static/images/barcode-image.png HTTP/1.1" 200 -
+2025-03-30 10:42:49,449 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:42:49] "GET /static/js/scanner.js HTTP/1.1" 200 -
+2025-03-30 10:42:56,800 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:42:56] "GET / HTTP/1.1" 200 -
+2025-03-30 10:42:56,825 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:42:56] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:42:57,052 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:42:57] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:42:57,130 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:42:57] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:42:57,143 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:42:57] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:44:40,598 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:44:40] "GET / HTTP/1.1" 200 -
+2025-03-30 10:44:40,619 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:44:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:44:40,828 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:44:40] "GET /static/js/scanner.js HTTP/1.1" 200 -
+2025-03-30 10:44:40,923 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:44:40] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:44:40,929 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:44:40] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:47:12,411 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:47:12] "GET / HTTP/1.1" 200 -
+2025-03-30 10:47:12,448 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:47:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:47:12,700 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:47:12] "GET /static/js/scanner.js HTTP/1.1" 200 -
+2025-03-30 10:47:12,755 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:47:12] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:47:12,759 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:47:12] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -
+2025-03-30 10:47:37,411 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:47:37] "POST /process_barcode HTTP/1.1" 200 -
+2025-03-30 10:47:48,269 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:47:48] "POST /process_barcode HTTP/1.1" 200 -
+2025-03-30 10:47:56,034 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:47:56] "GET /search HTTP/1.1" 200 -
+2025-03-30 10:47:56,064 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:47:56] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:47:59,856 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:47:59] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-03-30 10:48:00,168 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:48:00] "GET /results/pepsico HTTP/1.1" 200 -
+2025-03-30 10:48:00,515 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:48:00] "[33mGET /results/static/css/main.css HTTP/1.1[0m" 404 -
+2025-03-30 10:48:06,502 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:48:06] "[32mPOST /analyze HTTP/1.1[0m" 302 -
+2025-03-30 10:48:06,804 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:48:06] "GET /results/exxonmobil HTTP/1.1" 200 -
+2025-03-30 10:48:07,147 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:48:07] "[33mGET /results/static/css/main.css HTTP/1.1[0m" 404 -
+2025-03-30 10:48:12,524 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:48:12] "GET / HTTP/1.1" 200 -
+2025-03-30 10:48:12,554 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:48:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-30 10:48:12,863 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:48:12] "[36mGET /static/js/scanner.js HTTP/1.1[0m" 304 -
+2025-03-30 10:48:12,864 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:48:12] "[36mGET /static/images/website-logo.jpg HTTP/1.1[0m" 304 -
+2025-03-30 10:48:12,868 - werkzeug - INFO - 127.0.0.1 - - [30/Mar/2025 10:48:12] "[36mGET /static/images/barcode-image.png HTTP/1.1[0m" 304 -

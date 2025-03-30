@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>EcoGuard Analyzer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2e7d32;
+            margin-bottom: 20px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 70%;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #1b5e20;
+        }
+        .error {
+            color: #d32f2f;
+            background-color: #ffebee;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .info {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #e8f5e9;
+            border-radius: 4px;
+        }
+    </style>
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <h1>EcoGuard Sustainability Analysis Tool</h1>
+        
+        {% if error %}
+        <div class="error">
+            {{ error }}
+        </div>
+        {% endif %}
+        
+        <form action="/analyze" method="post">
+            <input type="text" name="company_name" placeholder="Enter company name (e.g. apple)" required>
+            <button type="submit">Analyze</button>
+        </form>
+        
+        <div class="info">
+            <h3>About EcoGuard Analyzer</h3>
+            <p>This tool analyzes corporate sustainability claims and compares them with external reports to identify potential greenwashing. The analysis evaluates:</p>
+            <ul>
+                <li>Misleading sustainability claims</li>
+                <li>Vague sustainability statements</li>
+                <li>Contradictions between company claims and environmental reports</li>
+                <li>Public sentiment analysis</li>
+                <li>History of false advertising claims</li>
+            </ul>
+            <p><small>Note: Analysis may take a few moments to complete as we gather and process data.</small></p>
+        </div>
+    </div>
+{% endblock %}
+

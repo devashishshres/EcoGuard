@@ -3,8 +3,6 @@
 {% block head %}
   <!-- Include QuaggaJS from CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
-  <!-- Link to the external JavaScript file -->
-  <script src="{{ url_for('static', filename='js/scanner.js') }}"></script>
 {% endblock %}
 
 {% block body %}
@@ -14,18 +12,21 @@
     <p class="instruction-text" id="instruction-text">Hold your device over a barcode to scan it</p>
     <img src="../static/images/barcode-image.png" width="240" height="240" alt="barcode image" id="barcode-image">
     
-    <button id="start-scan" class="green-btn">Scan</button>
+    <button id="start-scan" class="green-btn" type="button">Scan</button>
 
     <div id="scanner-container" style="display:none; width:640px; height:480px; margin-top:20px;"></div>
     
-    <button id="stop-scan" class="green-btn" style="display:none; margin-top:10px;">Stop Scanning</button>
+    <button id="stop-scan" class="green-btn" type="button" style="display:none; margin-top:10px;">Stop Scanning</button>
     
     <p class="or-text" id="or-text">OR</p>
-    <form action="/search-product" method="POST" id="search-form">
-    <label for="search-product"></label>
-    <input type="submit" value="Search" class="green-btn last-green-btn" id="search-product">
-    </form>
-
+    <div id="search-form">
+      <form action="/search" method="GET">
+        <input type="submit" value="Search" class="green-btn last-green-btn" id="analyze">
+      </form>
+    </div>
   </div>
+  
+  <!-- Place JavaScript at the end of the body for better performance -->
+  <script src="{{ url_for('static', filename='js/scanner.js') }}"></script>
 </main>
 {% endblock %}
