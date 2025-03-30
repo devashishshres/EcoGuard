@@ -7,7 +7,6 @@ import json
 import time
 from collections import Counter
 
-
 def scan_barcode():
     # Open the default camera (index 0)
     cap = cv2.VideoCapture(0)
@@ -109,6 +108,7 @@ def lookup_openfoodfacts(barcode_data):
     
     return None, None
 
+# Load parent companies from JSON (ensure the file exists)
 with open("parent_companies.json", "r") as f:
     parent_companies = json.load(f)
 
@@ -135,6 +135,7 @@ def get_esg_data(company_ticker):
         return f"Error fetching ESG data for {company_ticker}: {e}"
 
 if __name__ == "__main__":
+    # This block is only for local testing using the OpenCV scanner.
     detected_barcode = scan_barcode()
     
     if detected_barcode:
@@ -154,3 +155,6 @@ if __name__ == "__main__":
             print("Product not found in OpenFoodFacts database")
     else:
         print("No barcode detected or scanning was cancelled")
+
+if __name__ == "__main__":
+    detected_barcode = scan_barcode()
